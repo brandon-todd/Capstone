@@ -1,0 +1,29 @@
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+   19 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[KSensorDataQoS[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:7[m[K:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In member function ‘[01m[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks)[m[K’:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:26:48:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelTicks[m[K’ was not declared in this scope; did you mean ‘[01m[Kirobot_create_msgs::msg::WheelTicks[m[K’?
+   26 |                 RCLCPP_INFO(this->get_logger(),[01;31m[KWheelTicks[m[K.msg);
+      |                                                [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_ticks.hpp:7[m[K,
+                 from [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__struct.hpp:153:7:[m[K [01;36m[Knote: [m[K‘[01m[Kirobot_create_msgs::msg::WheelTicks[m[K’ declared here
+  153 | using [01;36m[KWheelTicks[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

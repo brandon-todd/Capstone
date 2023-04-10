@@ -1,0 +1,17 @@
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/lib/turtlebot4_base/turtlebot4_base_node
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/package_run_dependencies/turtlebot4_base
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/parent_prefix_path/turtlebot4_base
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/ament_prefix_path.sh
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/ament_prefix_path.dsv
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/path.sh
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/path.dsv
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.bash
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.sh
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.zsh
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.dsv
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/package.dsv
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/packages/turtlebot4_base
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/turtlebot4_baseConfig.cmake
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/turtlebot4_baseConfig-version.cmake
+/home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/package.xml

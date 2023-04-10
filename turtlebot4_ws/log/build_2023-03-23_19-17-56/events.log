@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.002551] (-) JobUnselected: {'identifier': 'turtlebot4_base'}
+[0.002837] (-) JobUnselected: {'identifier': 'turtlebot4_bringup'}
+[0.003157] (-) JobUnselected: {'identifier': 'turtlebot4_diagnostics'}
+[0.003695] (-) JobUnselected: {'identifier': 'turtlebot4_robot'}
+[0.004607] (-) JobUnselected: {'identifier': 'turtlebot4_tests'}
+[0.004726] (odom) JobQueued: {'identifier': 'odom', 'dependencies': OrderedDict()}
+[0.008937] (odom) JobStarted: {'identifier': 'odom'}
+[0.073431] (odom) JobProgress: {'identifier': 'odom', 'progress': 'cmake'}
+[0.074342] (odom) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/turtlebot4_ws/src/odom', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot4_ws/install/odom'], 'cwd': '/home/ubuntu/turtlebot4_ws/build/odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKSPACE_SETUP', '/opt/ros/humble/setup.bash'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.2.241 64393 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu/turtlebot4_ws/src/odom'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROBOT_SETUP', '/etc/turtlebot4/setup.bash'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/turtlebot4/fastdds_rpi.xml'), ('TURTLEBOT4_DIAGNOSTICS', '1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROBOT_NAMESPACE', ''), ('PWD', '/home/ubuntu/turtlebot4_ws/build/odom'), ('SSH_CONNECTION', '192.168.2.241 64393 192.168.2.242 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099866] (-) TimerEvent: {}
+[0.200827] (-) TimerEvent: {}
+[0.301750] (-) TimerEvent: {}
+[0.402450] (-) TimerEvent: {}
+[0.503259] (-) TimerEvent: {}
+[0.604112] (-) TimerEvent: {}
+[0.705062] (-) TimerEvent: {}
+[0.806013] (-) TimerEvent: {}
+[0.906764] (-) TimerEvent: {}
+[1.007531] (-) TimerEvent: {}
+[1.065744] (odom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.107714] (-) TimerEvent: {}
+[1.208447] (-) TimerEvent: {}
+[1.310134] (-) TimerEvent: {}
+[1.411098] (-) TimerEvent: {}
+[1.512027] (-) TimerEvent: {}
+[1.612873] (-) TimerEvent: {}
+[1.713717] (-) TimerEvent: {}
+[1.814662] (-) TimerEvent: {}
+[1.831375] (odom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.880848] (odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.914867] (-) TimerEvent: {}
+[2.015580] (-) TimerEvent: {}
+[2.116306] (-) TimerEvent: {}
+[2.217451] (-) TimerEvent: {}
+[2.256530] (odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.281201] (odom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.283291] (odom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.285995] (odom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.305633] (odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.317587] (-) TimerEvent: {}
+[2.418350] (-) TimerEvent: {}
+[2.519146] (-) TimerEvent: {}
+[2.620086] (-) TimerEvent: {}
+[2.678293] (odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.704098] (odom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.705079] (odom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.706641] (odom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.720249] (-) TimerEvent: {}
+[2.747715] (odom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.820517] (-) TimerEvent: {}
+[2.921535] (-) TimerEvent: {}
+[3.022709] (-) TimerEvent: {}
+[3.123425] (-) TimerEvent: {}
+[3.224100] (-) TimerEvent: {}
+[3.324782] (-) TimerEvent: {}
+[3.425674] (-) TimerEvent: {}
+[3.526439] (-) TimerEvent: {}
+[3.627302] (-) TimerEvent: {}
+[3.644240] (odom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.727432] (-) TimerEvent: {}
+[3.828091] (-) TimerEvent: {}
+[3.928869] (-) TimerEvent: {}
+[4.029610] (-) TimerEvent: {}
+[4.130280] (-) TimerEvent: {}
+[4.231215] (-) TimerEvent: {}
+[4.332277] (-) TimerEvent: {}
+[4.433176] (-) TimerEvent: {}
+[4.436733] (odom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.533424] (-) TimerEvent: {}
+[4.634395] (-) TimerEvent: {}
+[4.735097] (-) TimerEvent: {}
+[4.835799] (-) TimerEvent: {}
+[4.923347] (odom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.935989] (-) TimerEvent: {}
+[4.982775] (odom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.036187] (-) TimerEvent: {}
+[5.064521] (odom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.136361] (-) TimerEvent: {}
+[5.174257] (odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.236546] (-) TimerEvent: {}
+[5.331380] (odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.336772] (-) TimerEvent: {}
+[5.437604] (-) TimerEvent: {}
+[5.538270] (-) TimerEvent: {}
+[5.639037] (-) TimerEvent: {}
+[5.739777] (-) TimerEvent: {}
+[5.834953] (odom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.839964] (-) TimerEvent: {}
+[5.867997] (odom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.940145] (-) TimerEvent: {}
+[6.040893] (-) TimerEvent: {}
+[6.141712] (-) TimerEvent: {}
+[6.242450] (-) TimerEvent: {}
+[6.343146] (-) TimerEvent: {}
+[6.443923] (-) TimerEvent: {}
+[6.539685] (odom) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.544088] (-) TimerEvent: {}
+[6.644882] (-) TimerEvent: {}
+[6.745715] (-) TimerEvent: {}
+[6.762714] (odom) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.845881] (-) TimerEvent: {}
+[6.946551] (-) TimerEvent: {}
+[7.047253] (-) TimerEvent: {}
+[7.137893] (odom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.147453] (-) TimerEvent: {}
+[7.236938] (odom) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.247645] (-) TimerEvent: {}
+[7.348381] (-) TimerEvent: {}
+[7.449307] (-) TimerEvent: {}
+[7.550145] (-) TimerEvent: {}
+[7.631564] (odom) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.633755] (odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.650341] (-) TimerEvent: {}
+[7.751175] (-) TimerEvent: {}
+[7.851995] (-) TimerEvent: {}
+[7.952797] (-) TimerEvent: {}
+[8.009562] (odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.014294] (odom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.053007] (-) TimerEvent: {}
+[8.153726] (-) TimerEvent: {}
+[8.254593] (-) TimerEvent: {}
+[8.355388] (-) TimerEvent: {}
+[8.456058] (-) TimerEvent: {}
+[8.556826] (-) TimerEvent: {}
+[8.657546] (-) TimerEvent: {}
+[8.758484] (-) TimerEvent: {}
+[8.811766] (odom) StdoutLine: {'line': b'-- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)\n'}
+[8.858665] (-) TimerEvent: {}
+[8.959453] (-) TimerEvent: {}
+[9.060124] (-) TimerEvent: {}
+[9.160896] (-) TimerEvent: {}
+[9.262067] (-) TimerEvent: {}
+[9.363096] (-) TimerEvent: {}
+[9.463834] (-) TimerEvent: {}
+[9.564677] (-) TimerEvent: {}
+[9.665434] (-) TimerEvent: {}
+[9.766100] (-) TimerEvent: {}
+[9.866786] (-) TimerEvent: {}
+[9.901904] (odom) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.966944] (-) TimerEvent: {}
+[10.067627] (-) TimerEvent: {}
+[10.168417] (-) TimerEvent: {}
+[10.269487] (-) TimerEvent: {}
+[10.370151] (-) TimerEvent: {}
+[10.406801] (odom) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.407522] (odom) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/turtlebot4_ws/src/odom/include>\n'}
+[10.407947] (odom) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.413606] (odom) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.421741] (odom) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.422366] (odom) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.424774] (odom) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.433255] (odom) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.470342] (-) TimerEvent: {}
+[10.499477] (odom) StdoutLine: {'line': b'-- Generating done\n'}
+[10.507256] (odom) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/turtlebot4_ws/build/odom\n'}
+[10.549692] (odom) CommandEnded: {'returncode': 0}
+[10.551704] (odom) JobProgress: {'identifier': 'odom', 'progress': 'build'}
+[10.554496] (odom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/turtlebot4_ws/build/odom', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/turtlebot4_ws/build/odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKSPACE_SETUP', '/opt/ros/humble/setup.bash'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.2.241 64393 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu/turtlebot4_ws/src/odom'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROBOT_SETUP', '/etc/turtlebot4/setup.bash'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/turtlebot4/fastdds_rpi.xml'), ('TURTLEBOT4_DIAGNOSTICS', '1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROBOT_NAMESPACE', ''), ('PWD', '/home/ubuntu/turtlebot4_ws/build/odom'), ('SSH_CONNECTION', '192.168.2.241 64393 192.168.2.242 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.570554] (-) TimerEvent: {}
+[10.672377] (-) TimerEvent: {}
+[10.773104] (-) TimerEvent: {}
+[10.791841] (odom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o\x1b[0m\n'}
+[10.873290] (-) TimerEvent: {}
+[10.973987] (-) TimerEvent: {}
+[11.074642] (-) TimerEvent: {}
+[11.175307] (-) TimerEvent: {}
+[11.276044] (-) TimerEvent: {}
+[11.376808] (-) TimerEvent: {}
+[11.477529] (-) TimerEvent: {}
+[11.578289] (-) TimerEvent: {}
+[11.679242] (-) TimerEvent: {}
+[11.779996] (-) TimerEvent: {}
+[11.880676] (-) TimerEvent: {}
+[11.981493] (-) TimerEvent: {}
+[12.082205] (-) TimerEvent: {}
+[12.182888] (-) TimerEvent: {}
+[12.283663] (-) TimerEvent: {}
+[12.384643] (-) TimerEvent: {}
+[12.485365] (-) TimerEvent: {}
+[12.586061] (-) TimerEvent: {}
+[12.686767] (-) TimerEvent: {}
+[12.787637] (-) TimerEvent: {}
+[12.888793] (-) TimerEvent: {}
+[12.989633] (-) TimerEvent: {}
+[13.090392] (-) TimerEvent: {}
+[13.191235] (-) TimerEvent: {}
+[13.292422] (-) TimerEvent: {}
+[13.393189] (-) TimerEvent: {}
+[13.493900] (-) TimerEvent: {}
+[13.594698] (-) TimerEvent: {}
+[13.695619] (-) TimerEvent: {}
+[13.796350] (-) TimerEvent: {}
+[13.897118] (-) TimerEvent: {}
+[13.997903] (-) TimerEvent: {}
+[14.098641] (-) TimerEvent: {}
+[14.199549] (-) TimerEvent: {}
+[14.300335] (-) TimerEvent: {}
+[14.401306] (-) TimerEvent: {}
+[14.502122] (-) TimerEvent: {}
+[14.603191] (-) TimerEvent: {}
+[14.703979] (-) TimerEvent: {}
+[14.804846] (-) TimerEvent: {}
+[14.905876] (-) TimerEvent: {}
+[15.006612] (-) TimerEvent: {}
+[15.107359] (-) TimerEvent: {}
+[15.208173] (-) TimerEvent: {}
+[15.309100] (-) TimerEvent: {}
+[15.410184] (-) TimerEvent: {}
+[15.510921] (-) TimerEvent: {}
+[15.611865] (-) TimerEvent: {}
+[15.712653] (-) TimerEvent: {}
+[15.813428] (-) TimerEvent: {}
+[15.914213] (-) TimerEvent: {}
+[16.015038] (-) TimerEvent: {}
+[16.115769] (-) TimerEvent: {}
+[16.216570] (-) TimerEvent: {}
+[16.317399] (-) TimerEvent: {}
+[16.418127] (-) TimerEvent: {}
+[16.518899] (-) TimerEvent: {}
+[16.620032] (-) TimerEvent: {}
+[16.720793] (-) TimerEvent: {}
+[16.821905] (-) TimerEvent: {}
+[16.922686] (-) TimerEvent: {}
+[17.023442] (-) TimerEvent: {}
+[17.124193] (-) TimerEvent: {}
+[17.224969] (-) TimerEvent: {}
+[17.325675] (-) TimerEvent: {}
+[17.426608] (-) TimerEvent: {}
+[17.527337] (-) TimerEvent: {}
+[17.628507] (-) TimerEvent: {}
+[17.729336] (-) TimerEvent: {}
+[17.830088] (-) TimerEvent: {}
+[17.930848] (-) TimerEvent: {}
+[18.031725] (-) TimerEvent: {}
+[18.132554] (-) TimerEvent: {}
+[18.233328] (-) TimerEvent: {}
+[18.334072] (-) TimerEvent: {}
+[18.434932] (-) TimerEvent: {}
+[18.535775] (-) TimerEvent: {}
+[18.636616] (-) TimerEvent: {}
+[18.737462] (-) TimerEvent: {}
+[18.838232] (-) TimerEvent: {}
+[18.938951] (-) TimerEvent: {}
+[19.039721] (-) TimerEvent: {}
+[19.140432] (-) TimerEvent: {}
+[19.241344] (-) TimerEvent: {}
+[19.342179] (-) TimerEvent: {}
+[19.443071] (-) TimerEvent: {}
+[19.543906] (-) TimerEvent: {}
+[19.644698] (-) TimerEvent: {}
+[19.745585] (-) TimerEvent: {}
+[19.846451] (-) TimerEvent: {}
+[19.947251] (-) TimerEvent: {}
+[20.047984] (-) TimerEvent: {}
+[20.149133] (-) TimerEvent: {}
+[20.250306] (-) TimerEvent: {}
+[20.351438] (-) TimerEvent: {}
+[20.452455] (-) TimerEvent: {}
+[20.553336] (-) TimerEvent: {}
+[20.654152] (-) TimerEvent: {}
+[20.755284] (-) TimerEvent: {}
+[20.856146] (-) TimerEvent: {}
+[20.956900] (-) TimerEvent: {}
+[21.057706] (-) TimerEvent: {}
+[21.158421] (-) TimerEvent: {}
+[21.259121] (-) TimerEvent: {}
+[21.359901] (-) TimerEvent: {}
+[21.460629] (-) TimerEvent: {}
+[21.561524] (-) TimerEvent: {}
+[21.662288] (-) TimerEvent: {}
+[21.763093] (-) TimerEvent: {}
+[21.863822] (-) TimerEvent: {}
+[21.964529] (-) TimerEvent: {}
+[22.065344] (-) TimerEvent: {}
+[22.166053] (-) TimerEvent: {}
+[22.266817] (-) TimerEvent: {}
+[22.367586] (-) TimerEvent: {}
+[22.409559] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOdom::Odom()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.410437] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorDataQos\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KSensorDataQoS\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.411081] (odom) StderrLine: {'line': b'   19 |                         rclcpp::\x1b[01;31m\x1b[KSensorDataQos\x1b[m\x1b[K(),\n'}
+[22.411673] (odom) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.412251] (odom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KSensorDataQoS\x1b[m\x1b[K\n'}
+[22.439684] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.440295] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:24:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcreate3_buttons_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[22.440958] (odom) StderrLine: {'line': b'   24 |                 \x1b[01;35m\x1b[Kconst irobot_create_msgs::msg::WheelTicks::SharedPtr create3_buttons_msg\x1b[m\x1b[K)\n'}
+[22.441605] (odom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.467768] (-) TimerEvent: {}
+[22.568512] (-) TimerEvent: {}
+[22.669381] (-) TimerEvent: {}
+[22.770148] (-) TimerEvent: {}
+[22.870901] (-) TimerEvent: {}
+[22.971961] (-) TimerEvent: {}
+[23.072782] (-) TimerEvent: {}
+[23.173570] (-) TimerEvent: {}
+[23.274275] (-) TimerEvent: {}
+[23.375057] (-) TimerEvent: {}
+[23.475789] (-) TimerEvent: {}
+[23.576524] (-) TimerEvent: {}
+[23.677375] (-) TimerEvent: {}
+[23.778181] (-) TimerEvent: {}
+[23.878914] (-) TimerEvent: {}
+[23.979718] (-) TimerEvent: {}
+[24.080688] (-) TimerEvent: {}
+[24.181612] (-) TimerEvent: {}
+[24.229477] (odom) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1\n'}
+[24.230184] (odom) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2\n'}
+[24.230793] (odom) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.237212] (odom) CommandEnded: {'returncode': 2}
+[24.281781] (-) TimerEvent: {}
+[24.383350] (-) TimerEvent: {}
+[24.459605] (odom) JobEnded: {'identifier': 'odom', 'rc': 2}
+[24.471818] (-) EventReactorShutdown: {}

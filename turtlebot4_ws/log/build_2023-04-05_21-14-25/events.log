@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000567] (-) JobUnselected: {'identifier': 'odom'}
+[0.000722] (-) JobUnselected: {'identifier': 'turtlebot4_base'}
+[0.000834] (-) JobUnselected: {'identifier': 'turtlebot4_bringup'}
+[0.000935] (-) JobUnselected: {'identifier': 'turtlebot4_diagnostics'}
+[0.001030] (-) JobUnselected: {'identifier': 'turtlebot4_robot'}
+[0.001129] (-) JobUnselected: {'identifier': 'turtlebot4_tests'}
+[0.001236] (wheelvelo) JobQueued: {'identifier': 'wheelvelo', 'dependencies': OrderedDict()}
+[0.001344] (wheelvelo) JobStarted: {'identifier': 'wheelvelo'}
+[0.085587] (-) TimerEvent: {}
+[0.186338] (-) TimerEvent: {}
+[0.287076] (-) TimerEvent: {}
+[0.387820] (-) TimerEvent: {}
+[0.488661] (-) TimerEvent: {}
+[0.595494] (-) TimerEvent: {}
+[0.696232] (-) TimerEvent: {}
+[0.796923] (-) TimerEvent: {}
+[0.897659] (-) TimerEvent: {}
+[0.998497] (-) TimerEvent: {}
+[1.099262] (-) TimerEvent: {}
+[1.200016] (-) TimerEvent: {}
+[1.300792] (-) TimerEvent: {}
+[1.401561] (-) TimerEvent: {}
+[1.502662] (-) TimerEvent: {}
+[1.614535] (-) TimerEvent: {}
+[1.715343] (-) TimerEvent: {}
+[1.816059] (-) TimerEvent: {}
+[1.916779] (-) TimerEvent: {}
+[2.017551] (-) TimerEvent: {}
+[2.118331] (-) TimerEvent: {}
+[2.219222] (-) TimerEvent: {}
+[2.319929] (-) TimerEvent: {}
+[2.420649] (-) TimerEvent: {}
+[2.521367] (-) TimerEvent: {}
+[2.622077] (-) TimerEvent: {}
+[2.723091] (-) TimerEvent: {}
+[2.823808] (-) TimerEvent: {}
+[2.924655] (-) TimerEvent: {}
+[3.025371] (-) TimerEvent: {}
+[3.126106] (-) TimerEvent: {}
+[3.226936] (-) TimerEvent: {}
+[3.327773] (-) TimerEvent: {}
+[3.428871] (-) TimerEvent: {}
+[3.530067] (-) TimerEvent: {}
+[3.631344] (-) TimerEvent: {}
+[3.673004] (wheelvelo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/turtlebot4_ws/build/wheelvelo/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/turtlebot4_ws/build/wheelvelo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.2.241 52613 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu/turtlebot4_ws/src/wheelvelo/wheelvelo', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/turtlebot4_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '202', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_discovery_super_client.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot4_ws/install/wheelvelo:/home/ubuntu/turtlebot4_ws/install/turtlebot4_robot:/home/ubuntu/turtlebot4_ws/install/turtlebot4_tests:/home/ubuntu/turtlebot4_ws/install/turtlebot4_bringup:/home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics:/home/ubuntu/turtlebot4_ws/install/turtlebot4_base:/home/ubuntu/turtlebot4_ws/install/odom:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '127.0.0.1:11811', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/turtlebot4_ws/build/wheelvelo', 'SSH_CONNECTION': '192.168.2.241 52613 192.168.2.242 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/turtlebot4_ws/build/wheelvelo/prefix_override:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:/home/ubuntu/turtlebot4_ws/build/wheelvelo:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:/home/ubuntu/turtlebot4_ws/build/turtlebot4_tests:/home/ubuntu/turtlebot4_ws/install/turtlebot4_tests/lib/python3.10/site-packages:/home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics:/home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot4_ws/install/turtlebot4_robot:/home/ubuntu/turtlebot4_ws/install/turtlebot4_bringup:/home/ubuntu/turtlebot4_ws/install/turtlebot4_base:/home/ubuntu/turtlebot4_ws/install/odom'}, 'shell': False}
+[3.731525] (-) TimerEvent: {}
+[3.832292] (-) TimerEvent: {}
+[3.933174] (-) TimerEvent: {}
+[4.033910] (-) TimerEvent: {}
+[4.134647] (-) TimerEvent: {}
+[4.235367] (-) TimerEvent: {}
+[4.336149] (-) TimerEvent: {}
+[4.436938] (-) TimerEvent: {}
+[4.538204] (-) TimerEvent: {}
+[4.639515] (-) TimerEvent: {}
+[4.740797] (-) TimerEvent: {}
+[4.841559] (-) TimerEvent: {}
+[4.942511] (-) TimerEvent: {}
+[5.043238] (-) TimerEvent: {}
+[5.143926] (-) TimerEvent: {}
+[5.189809] (wheelvelo) StdoutLine: {'line': b'running develop\n'}
+[5.192869] (wheelvelo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.193585] (wheelvelo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.200190] (wheelvelo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.200809] (wheelvelo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.244109] (-) TimerEvent: {}
+[5.344861] (-) TimerEvent: {}
+[5.445647] (-) TimerEvent: {}
+[5.546384] (-) TimerEvent: {}
+[5.558922] (wheelvelo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release\n'}
+[5.559923] (wheelvelo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.562434] (wheelvelo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release\n'}
+[5.563446] (wheelvelo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.565740] (wheelvelo) StderrLine: {'line': b'/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release\n'}
+[5.566774] (wheelvelo) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.646610] (-) TimerEvent: {}
+[5.747412] (-) TimerEvent: {}
+[5.848826] (-) TimerEvent: {}
+[5.950406] (-) TimerEvent: {}
+[6.051778] (-) TimerEvent: {}
+[6.153183] (-) TimerEvent: {}
+[6.254519] (-) TimerEvent: {}
+[6.264551] (wheelvelo) StdoutLine: {'line': b'running egg_info\n'}
+[6.266493] (wheelvelo) StdoutLine: {'line': b'writing wheelvelo.egg-info/PKG-INFO\n'}
+[6.268826] (wheelvelo) StdoutLine: {'line': b'writing dependency_links to wheelvelo.egg-info/dependency_links.txt\n'}
+[6.270926] (wheelvelo) StdoutLine: {'line': b'writing entry points to wheelvelo.egg-info/entry_points.txt\n'}
+[6.272794] (wheelvelo) StdoutLine: {'line': b'writing requirements to wheelvelo.egg-info/requires.txt\n'}
+[6.274571] (wheelvelo) StdoutLine: {'line': b'writing top-level names to wheelvelo.egg-info/top_level.txt\n'}
+[6.284518] (wheelvelo) StdoutLine: {'line': b"reading manifest file 'wheelvelo.egg-info/SOURCES.txt'\n"}
+[6.288960] (wheelvelo) StdoutLine: {'line': b"writing manifest file 'wheelvelo.egg-info/SOURCES.txt'\n"}
+[6.297089] (wheelvelo) StdoutLine: {'line': b'running build_ext\n'}
+[6.299348] (wheelvelo) StdoutLine: {'line': b'Creating /home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages/wheelvelo.egg-link (link to .)\n'}
+[6.304767] (wheelvelo) StdoutLine: {'line': b'Installing wheelvelo script to /home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/wheelvelo\n'}
+[6.307287] (wheelvelo) StdoutLine: {'line': b'\n'}
+[6.308230] (wheelvelo) StdoutLine: {'line': b'Installed /home/ubuntu/turtlebot4_ws/build/wheelvelo\n'}
+[6.309838] (wheelvelo) StdoutLine: {'line': b'running install_data\n'}
+[6.354727] (-) TimerEvent: {}
+[6.456082] (-) TimerEvent: {}
+[6.485417] (wheelvelo) CommandEnded: {'returncode': 0}
+[6.556866] (-) TimerEvent: {}
+[6.583402] (wheelvelo) JobEnded: {'identifier': 'wheelvelo', 'rc': 0}
+[6.591804] (-) EventReactorShutdown: {}

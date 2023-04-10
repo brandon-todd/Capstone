@@ -1,0 +1,23 @@
+[2.523s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[2.883s] [100%] Built target odom
+[2.932s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[3.206s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/odom
+[3.247s] -- Install configuration: ""
+[3.250s] -- Execute custom install script
+[3.254s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/lib/odom/odom
+[3.265s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/package_run_dependencies/odom
+[3.266s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/parent_prefix_path/odom
+[3.270s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/ament_prefix_path.sh
+[3.272s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/ament_prefix_path.dsv
+[3.274s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/path.sh
+[3.277s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/path.dsv
+[3.279s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.bash
+[3.281s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.sh
+[3.282s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.zsh
+[3.286s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.dsv
+[3.286s] -- Symlinking: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/package.dsv
+[3.323s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/packages/odom
+[3.327s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/cmake/odomConfig.cmake
+[3.330s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/cmake/odomConfig-version.cmake
+[3.332s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/package.xml
+[3.351s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/odom

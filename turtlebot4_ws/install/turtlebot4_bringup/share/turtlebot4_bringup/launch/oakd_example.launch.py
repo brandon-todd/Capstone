@@ -1,0 +1,1 @@
+/home/ubuntu/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_bringup/launch/oakd_example.launch.py

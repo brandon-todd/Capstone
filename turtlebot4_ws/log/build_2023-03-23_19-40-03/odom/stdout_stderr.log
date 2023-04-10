@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target odom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:20:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+   20 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[KSensorDataQoS[m[K
+gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

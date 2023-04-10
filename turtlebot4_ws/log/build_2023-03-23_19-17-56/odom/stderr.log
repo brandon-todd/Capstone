@@ -1,0 +1,12 @@
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+   19 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[KSensorDataQoS[m[K
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In member function ‘[01m[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:24:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcreate3_buttons_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   24 |                 [01;35m[Kconst irobot_create_msgs::msg::WheelTicks::SharedPtr create3_buttons_msg[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

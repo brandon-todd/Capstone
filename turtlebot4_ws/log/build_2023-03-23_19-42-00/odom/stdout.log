@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target odom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odom[0m
+[100%] Built target odom
+-- Install configuration: ""
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/lib/odom/odom
+-- Set runtime path of "/home/ubuntu/turtlebot4_ws/install/odom/lib/odom/odom" to ""
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/package_run_dependencies/odom
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/parent_prefix_path/odom
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/path.sh
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/environment/path.dsv
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.bash
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.sh
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.zsh
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/local_setup.dsv
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/package.dsv
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/ament_index/resource_index/packages/odom
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/cmake/odomConfig.cmake
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/cmake/odomConfig-version.cmake
+-- Installing: /home/ubuntu/turtlebot4_ws/install/odom/share/odom/package.xml

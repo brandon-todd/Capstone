@@ -1,0 +1,59 @@
+[0.078s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/turtlebot4_ws/src/odom -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot4_ws/install/odom
+[1.058s] -- The C compiler identification is GNU 11.3.0
+[1.823s] -- The CXX compiler identification is GNU 11.3.0
+[1.872s] -- Detecting C compiler ABI info
+[2.248s] -- Detecting C compiler ABI info - done
+[2.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.275s] -- Detecting C compile features
+[2.277s] -- Detecting C compile features - done
+[2.297s] -- Detecting CXX compiler ABI info
+[2.670s] -- Detecting CXX compiler ABI info - done
+[2.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.696s] -- Detecting CXX compile features
+[2.698s] -- Detecting CXX compile features - done
+[2.739s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.636s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.428s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[4.915s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.974s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.056s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.826s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.859s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.531s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.228s] -- Looking for pthread.h
+[7.623s] -- Looking for pthread.h - found
+[7.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.006s] -- Found Threads: TRUE  
+[8.803s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[9.893s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.399s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/turtlebot4_ws/src/odom/include>
+[10.399s] -- Configured cppcheck exclude dirs and/or files: 
+[10.405s] -- Added test 'lint_cmake' to check CMake code style
+[10.413s] -- Added test 'uncrustify' to check C / C++ code style
+[10.414s] -- Configured uncrustify additional arguments: 
+[10.416s] -- Added test 'xmllint' to check XML markup files
+[10.425s] -- Configuring done
+[10.491s] -- Generating done
+[10.499s] -- Build files have been written to: /home/ubuntu/turtlebot4_ws/build/odom
+[10.541s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/turtlebot4_ws/src/odom -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot4_ws/install/odom
+[10.551s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[10.783s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[22.401s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[22.402s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+[22.402s]    19 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+[22.403s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[22.404s]       |                                 [32m[KSensorDataQoS[m[K
+[22.431s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In member function ‘[01m[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks_<std::allocator<void> >::SharedPtr)[m[K’:
+[22.432s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:24:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcreate3_buttons_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.432s]    24 |                 [01;35m[Kconst irobot_create_msgs::msg::WheelTicks::SharedPtr create3_buttons_msg[m[K)
+[22.433s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[24.221s] gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+[24.221s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+[24.222s] gmake: *** [Makefile:146: all] Error 2
+[24.229s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4

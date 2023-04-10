@@ -1,0 +1,12 @@
+[0.062s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.354s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[11.020s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[11.021s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:20:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+[11.021s]    20 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+[11.022s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[11.022s]       |                                 [32m[KSensorDataQoS[m[K
+[12.830s] gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+[12.831s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+[12.831s] gmake: *** [Makefile:146: all] Error 2
+[12.837s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4

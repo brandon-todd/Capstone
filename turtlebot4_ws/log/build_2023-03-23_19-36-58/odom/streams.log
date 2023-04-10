@@ -1,0 +1,27 @@
+[0.062s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.356s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[11.019s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[11.020s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:20:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+[11.020s]    20 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+[11.020s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[11.021s]       |                                 [32m[KSensorDataQoS[m[K
+[11.048s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In member function ‘[01m[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.048s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:27:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstringstream[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::stringstream[m[K’?
+[11.049s]    27 |                 [01;31m[Kstringstream[m[K strs;
+[11.049s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[11.049s]       |                 [32m[Kstd::stringstream[m[K
+[11.050s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+[11.050s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[11.050s]                  from [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:4[m[K:
+[11.050s] [01m[K/usr/include/c++/11/iosfwd:156:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::stringstream[m[K’ declared here
+[11.051s]   156 |   typedef basic_stringstream<char>      [01;36m[Kstringstream[m[K;
+[11.051s]       |                                         [01;36m[K^~~~~~~~~~~~[m[K
+[11.072s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:29:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrs[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrstr[m[K’?
+[11.073s]    29 |                 [01;31m[Kstrs[m[K<<wheel_ticks->ticks_left;
+[11.073s]       |                 [01;31m[K^~~~[m[K
+[11.074s]       |                 [32m[Kstrstr[m[K
+[12.870s] gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+[12.870s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+[12.871s] gmake: *** [Makefile:146: all] Error 2
+[12.878s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4

@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot4_ws/install/turtlebot4_base
+Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/turtlebot4_ws/src/turtlebot4_robot/turtlebot4_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/turtlebot4_ws/install/turtlebot4_base
+Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/turtlebot4_base -- -j4 -l4
+Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/turtlebot4_base -- -j4 -l4
+Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/turtlebot4_base
+Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/turtlebot4_base

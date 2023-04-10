@@ -1,0 +1,27 @@
+[3.820s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/wheelvelo': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/wheelvelo/prefix_override:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/wheelvelo/build --no-deps install_data
+[5.504s] running develop
+[5.506s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.506s]   warnings.warn(
+[5.514s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.515s]   warnings.warn(
+[5.924s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.925s]   warnings.warn(
+[5.926s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.927s]   warnings.warn(
+[5.929s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.929s]   warnings.warn(
+[6.686s] running egg_info
+[6.687s] writing wheelvelo.egg-info/PKG-INFO
+[6.689s] writing dependency_links to wheelvelo.egg-info/dependency_links.txt
+[6.690s] writing entry points to wheelvelo.egg-info/entry_points.txt
+[6.691s] writing requirements to wheelvelo.egg-info/requires.txt
+[6.691s] writing top-level names to wheelvelo.egg-info/top_level.txt
+[6.703s] reading manifest file 'wheelvelo.egg-info/SOURCES.txt'
+[6.706s] writing manifest file 'wheelvelo.egg-info/SOURCES.txt'
+[6.715s] running build_ext
+[6.716s] Creating /home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages/wheelvelo.egg-link (link to .)
+[6.721s] Installing wheelvelo script to /home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/wheelvelo
+[6.723s] 
+[6.723s] Installed /home/ubuntu/turtlebot4_ws/build/wheelvelo
+[6.725s] running install_data
+[6.933s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/wheelvelo' returned '0': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/wheelvelo/prefix_override:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/wheelvelo/build --no-deps install_data

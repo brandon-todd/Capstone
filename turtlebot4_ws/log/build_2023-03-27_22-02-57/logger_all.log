@@ -1,0 +1,227 @@
+[1.768s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'wheelvelo']
+[1.769s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['wheelvelo'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9bc51270>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9c4c61a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9c4c61a0>>)
+[1.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.948s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/turtlebot4_ws'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ignore', 'ignore_ament_install']
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ignore_ament_install'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_pkg']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_pkg'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['colcon_meta']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'colcon_meta'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extensions ['ros']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom) by extension 'ros'
+[2.031s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom' with type 'ros.ament_cmake' and name 'odom'
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'ignore'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'ignore_ament_install'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['colcon_pkg']
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'colcon_pkg'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['colcon_meta']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'colcon_meta'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['ros']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'ros'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['cmake', 'python']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'cmake'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'python'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extensions ['python_setup_py']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot) by extension 'python_setup_py'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extensions ['ignore', 'ignore_ament_install']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extension 'ignore'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extension 'ignore_ament_install'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extensions ['colcon_pkg']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extension 'colcon_pkg'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extensions ['colcon_meta']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extension 'colcon_meta'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extensions ['ros']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_base) by extension 'ros'
+[2.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_robot/turtlebot4_base' with type 'ros.ament_cmake' and name 'turtlebot4_base'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extension 'ignore'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extension 'ignore_ament_install'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extensions ['colcon_pkg']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extension 'colcon_pkg'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extensions ['colcon_meta']
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extension 'colcon_meta'
+[2.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extensions ['ros']
+[2.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_bringup) by extension 'ros'
+[2.053s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_robot/turtlebot4_bringup' with type 'ros.ament_cmake' and name 'turtlebot4_bringup'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extension 'ignore_ament_install'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extensions ['colcon_pkg']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extension 'colcon_meta'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extensions ['ros']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_diagnostics) by extension 'ros'
+[2.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_robot/turtlebot4_diagnostics' with type 'ros.ament_python' and name 'turtlebot4_diagnostics'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extension 'ignore'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extension 'ignore_ament_install'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extensions ['colcon_pkg']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extension 'colcon_pkg'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extensions ['colcon_meta']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extension 'colcon_meta'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extensions ['ros']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_robot) by extension 'ros'
+[2.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_robot/turtlebot4_robot' with type 'ros.ament_cmake' and name 'turtlebot4_robot'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extension 'ignore'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extension 'ignore_ament_install'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extensions ['colcon_pkg']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extension 'colcon_pkg'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extensions ['colcon_meta']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extension 'colcon_meta'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extensions ['ros']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_robot/turtlebot4_tests) by extension 'ros'
+[2.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_robot/turtlebot4_tests' with type 'ros.ament_python' and name 'turtlebot4_tests'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extension 'ignore'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extensions ['colcon_pkg']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extension 'colcon_pkg'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelvelo) by extension 'ros'
+[2.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelvelo' with type 'ros.ament_python' and name 'wheelvelo'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'ignore'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'ignore_ament_install'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['colcon_pkg']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'colcon_pkg'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['colcon_meta']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'colcon_meta'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['ros']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'ros'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['cmake', 'python']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'cmake'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'python'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extensions ['python_setup_py']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(wheelLog) by extension 'python_setup_py'
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom' in 'src/odom'
+[2.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot4_base' in 'src/turtlebot4_robot/turtlebot4_base'
+[2.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot4_diagnostics' in 'src/turtlebot4_robot/turtlebot4_diagnostics'
+[2.198s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot4_tests' in 'src/turtlebot4_robot/turtlebot4_tests'
+[2.199s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot4_bringup' in 'src/turtlebot4_robot/turtlebot4_bringup'
+[2.199s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot4_robot' in 'src/turtlebot4_robot/turtlebot4_robot'
+[2.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.220s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ubuntu/turtlebot4_ws/install
+[2.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_args' from command line to 'None'
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_target' from command line to 'None'
+[2.584s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_clean_first' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'cmake_force_configure' from command line to 'False'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'ament_cmake_args' from command line to 'None'
+[2.585s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.586s] Level 5:colcon.colcon_core.verb:set package 'wheelvelo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.586s] DEBUG:colcon.colcon_core.verb:Building package 'wheelvelo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/turtlebot4_ws/build/wheelvelo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/turtlebot4_ws/install/wheelvelo', 'merge_install': False, 'path': '/home/ubuntu/turtlebot4_ws/src/wheelvelo', 'symlink_install': True, 'test_result_base': None}
+[2.589s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.604s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/turtlebot4_ws/src/wheelvelo' with build type 'ament_python'
+[2.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelvelo', 'ament_prefix_path')
+[2.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/ament_prefix_path.ps1'
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/ament_prefix_path.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/ament_prefix_path.sh'
+[2.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.158s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/turtlebot4_ws/src/wheelvelo'
+[4.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/turtlebot4_ws/build/wheelvelo': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/wheelvelo/prefix_override:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/wheelvelo/build --no-deps install_data
+[9.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelvelo', 'pythonpath_develop')
+[9.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/build/wheelvelo/share/wheelvelo/hook/pythonpath_develop.ps1'
+[9.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/turtlebot4_ws/build/wheelvelo' returned '0': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/wheelvelo/prefix_override:/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/wheelvelo/build --no-deps install_data
+[9.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/turtlebot4_ws/build/wheelvelo/share/wheelvelo/hook/pythonpath_develop.dsv'
+[9.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/build/wheelvelo/share/wheelvelo/hook/pythonpath_develop.sh'
+[9.272s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo' for CMake module files
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo' for CMake config files
+[9.279s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib'
+[9.280s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo/bin'
+[9.281s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/pkgconfig/wheelvelo.pc'
+[9.282s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo/lib/python3.10/site-packages'
+[9.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelvelo', 'pythonpath')
+[9.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/pythonpath.ps1'
+[9.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/pythonpath.dsv'
+[9.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/hook/pythonpath.sh'
+[9.299s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/turtlebot4_ws/install/wheelvelo/bin'
+[9.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelvelo)
+[9.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/package.ps1'
+[9.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/package.dsv'
+[9.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/package.sh'
+[9.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/package.bash'
+[9.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/wheelvelo/package.zsh'
+[9.332s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/turtlebot4_ws/install/wheelvelo/share/colcon-core/packages/wheelvelo)
+[9.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.336s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.365s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.369s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.369s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot4_ws/install/local_setup.ps1'
+[9.380s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/turtlebot4_ws/install/_local_setup_util_ps1.py'
+[9.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot4_ws/install/setup.ps1'
+[9.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot4_ws/install/local_setup.sh'
+[9.397s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/turtlebot4_ws/install/_local_setup_util_sh.py'
+[9.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot4_ws/install/setup.sh'
+[9.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot4_ws/install/local_setup.bash'
+[9.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot4_ws/install/setup.bash'
+[9.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/turtlebot4_ws/install/local_setup.zsh'
+[9.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/turtlebot4_ws/install/setup.zsh'

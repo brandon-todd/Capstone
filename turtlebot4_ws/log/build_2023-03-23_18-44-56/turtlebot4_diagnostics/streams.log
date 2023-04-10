@@ -1,0 +1,38 @@
+[5.556s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics/prefix_override:/home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics/build --no-deps install_data
+[7.400s] running develop
+[7.405s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.406s]   warnings.warn(
+[7.414s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.415s]   warnings.warn(
+[7.771s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[7.771s]   warnings.warn(
+[7.772s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[7.774s]   warnings.warn(
+[7.775s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[7.775s]   warnings.warn(
+[8.549s] running egg_info
+[8.550s] creating turtlebot4_diagnostics.egg-info
+[8.550s] writing turtlebot4_diagnostics.egg-info/PKG-INFO
+[8.554s] writing dependency_links to turtlebot4_diagnostics.egg-info/dependency_links.txt
+[8.561s] writing entry points to turtlebot4_diagnostics.egg-info/entry_points.txt
+[8.562s] writing requirements to turtlebot4_diagnostics.egg-info/requires.txt
+[8.563s] writing top-level names to turtlebot4_diagnostics.egg-info/top_level.txt
+[8.563s] writing manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+[8.564s] reading manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+[8.566s] writing manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+[8.572s] running build_ext
+[8.573s] Creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages/turtlebot4-diagnostics.egg-link (link to .)
+[8.577s] Installing diagnostics_updater script to /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/lib/turtlebot4_diagnostics
+[8.579s] 
+[8.580s] Installed /home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics
+[8.581s] running install_data
+[8.582s] creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/ament_index
+[8.583s] creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/ament_index/resource_index
+[8.583s] creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/ament_index/resource_index/packages
+[8.584s] copying resource/turtlebot4_diagnostics -> /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/ament_index/resource_index/packages
+[8.585s] copying package.xml -> /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics
+[8.586s] creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/launch
+[8.587s] copying launch/diagnostics.launch.py -> /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/launch
+[8.589s] creating /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/config
+[8.590s] copying config/diagnostics.yaml -> /home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/config
+[8.789s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics' returned '0': PYTHONPATH=/home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics/prefix_override:/home/ubuntu/turtlebot4_ws/install/turtlebot4_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/turtlebot4_ws/build/turtlebot4_diagnostics/build --no-deps install_data

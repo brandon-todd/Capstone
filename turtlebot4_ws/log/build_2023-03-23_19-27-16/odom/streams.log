@@ -1,0 +1,44 @@
+[0.074s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/odom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.348s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[11.042s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In constructor ‘[01m[KOdom::Odom()[m[K’:
+[11.043s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+[11.044s]    19 |                         rclcpp::[01;31m[KSensorDataQos[m[K(),
+[11.044s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[11.044s]       |                                 [32m[KSensorDataQoS[m[K
+[11.071s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[11.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[11.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[11.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[11.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[11.073s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[11.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[11.074s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[11.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.075s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.076s]                  from [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:7[m[K:
+[11.076s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:[m[K In member function ‘[01m[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.076s] [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:26:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<irobot_create_msgs::msg::WheelTicks_<std::allocator<void> > >[m[K’} to ‘[01m[Kconst char*[m[K’
+[11.077s]    26 |                 RCLCPP_INFO(this->get_logger(),[01;31m[Kwheel_ticks[m[K);
+[11.077s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[11.077s]       |                                                [01;31m[K|[m[K
+[11.078s]       |                                                [01;31m[Kconst SharedPtr {aka const std::shared_ptr<irobot_create_msgs::msg::WheelTicks_<std::allocator<void> > >}[m[K
+[11.078s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[11.078s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[11.079s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[11.079s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[11.080s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[11.080s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[11.080s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[11.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[11.081s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[11.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[11.082s]                  from [01m[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:7[m[K:
+[11.082s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[11.083s]   479 |   [01;36m[Kconst char * format[m[K,
+[11.083s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[12.871s] gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1
+[12.872s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2
+[12.872s] gmake: *** [Makefile:146: all] Error 2
+[12.879s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/odom' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/odom -- -j4 -l4

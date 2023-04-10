@@ -1,0 +1,25 @@
+[1.290s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/turtlebot4_base -- -j4 -l4
+[2.561s] [ 83%] Built target turtlebot4_base_lib
+[2.563s] [100%] Built target turtlebot4_base_node
+[2.566s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/turtlebot4_ws/build/turtlebot4_base -- -j4 -l4
+[2.949s] Invoking command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/turtlebot4_base
+[3.008s] -- Install configuration: ""
+[3.013s] -- Execute custom install script
+[3.029s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/lib/turtlebot4_base/turtlebot4_base_node
+[3.034s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/package_run_dependencies/turtlebot4_base
+[3.039s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/parent_prefix_path/turtlebot4_base
+[3.042s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/ament_prefix_path.sh
+[3.044s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/ament_prefix_path.dsv
+[3.048s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/path.sh
+[3.050s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/environment/path.dsv
+[3.052s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.bash
+[3.055s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.sh
+[3.057s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.zsh
+[3.061s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/local_setup.dsv
+[3.068s] -- Symlinking: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/package.dsv
+[3.115s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/ament_index/resource_index/packages/turtlebot4_base
+[3.119s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.122s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/turtlebot4_baseConfig.cmake
+[3.123s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/cmake/turtlebot4_baseConfig-version.cmake
+[3.126s] -- Up-to-date symlink: /home/ubuntu/turtlebot4_ws/install/turtlebot4_base/share/turtlebot4_base/package.xml
+[3.138s] Invoked command in '/home/ubuntu/turtlebot4_ws/build/turtlebot4_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/turtlebot4_ws/build/turtlebot4_base

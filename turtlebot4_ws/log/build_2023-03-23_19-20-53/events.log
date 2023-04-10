@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.002239] (-) JobUnselected: {'identifier': 'turtlebot4_base'}
+[0.002979] (-) JobUnselected: {'identifier': 'turtlebot4_bringup'}
+[0.005210] (-) JobUnselected: {'identifier': 'turtlebot4_diagnostics'}
+[0.005490] (-) JobUnselected: {'identifier': 'turtlebot4_robot'}
+[0.005868] (-) JobUnselected: {'identifier': 'turtlebot4_tests'}
+[0.006103] (odom) JobQueued: {'identifier': 'odom', 'dependencies': OrderedDict()}
+[0.006234] (odom) JobStarted: {'identifier': 'odom'}
+[0.064329] (odom) JobProgress: {'identifier': 'odom', 'progress': 'cmake'}
+[0.067654] (odom) JobProgress: {'identifier': 'odom', 'progress': 'build'}
+[0.070690] (odom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/turtlebot4_ws/build/odom', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/turtlebot4_ws/build/odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKSPACE_SETUP', '/opt/ros/humble/setup.bash'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.2.241 64393 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('CYCLONEDDS_URI', '/etc/turtlebot4/cyclonedds_rpi.xml'), ('OLDPWD', '/home/ubuntu/turtlebot4_ws/src/odom/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROBOT_SETUP', '/etc/turtlebot4/setup.bash'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/etc/turtlebot4/fastdds_rpi.xml'), ('TURTLEBOT4_DIAGNOSTICS', '1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROBOT_NAMESPACE', ''), ('PWD', '/home/ubuntu/turtlebot4_ws/build/odom'), ('SSH_CONNECTION', '192.168.2.241 64393 192.168.2.242 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099599] (-) TimerEvent: {}
+[0.200749] (-) TimerEvent: {}
+[0.269732] (odom) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odom\x1b[0m\n'}
+[0.300960] (-) TimerEvent: {}
+[0.373663] (odom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o\x1b[0m\n'}
+[0.401652] (-) TimerEvent: {}
+[0.504375] (-) TimerEvent: {}
+[0.605828] (-) TimerEvent: {}
+[0.706643] (-) TimerEvent: {}
+[0.808005] (-) TimerEvent: {}
+[0.908872] (-) TimerEvent: {}
+[1.009820] (-) TimerEvent: {}
+[1.110889] (-) TimerEvent: {}
+[1.211763] (-) TimerEvent: {}
+[1.313606] (-) TimerEvent: {}
+[1.415121] (-) TimerEvent: {}
+[1.516036] (-) TimerEvent: {}
+[1.618259] (-) TimerEvent: {}
+[1.719000] (-) TimerEvent: {}
+[1.819764] (-) TimerEvent: {}
+[1.920670] (-) TimerEvent: {}
+[2.021725] (-) TimerEvent: {}
+[2.122716] (-) TimerEvent: {}
+[2.224063] (-) TimerEvent: {}
+[2.324923] (-) TimerEvent: {}
+[2.425763] (-) TimerEvent: {}
+[2.526569] (-) TimerEvent: {}
+[2.627514] (-) TimerEvent: {}
+[2.728399] (-) TimerEvent: {}
+[2.829655] (-) TimerEvent: {}
+[2.930610] (-) TimerEvent: {}
+[3.031741] (-) TimerEvent: {}
+[3.132621] (-) TimerEvent: {}
+[3.233542] (-) TimerEvent: {}
+[3.335082] (-) TimerEvent: {}
+[3.436786] (-) TimerEvent: {}
+[3.537744] (-) TimerEvent: {}
+[3.638596] (-) TimerEvent: {}
+[3.739668] (-) TimerEvent: {}
+[3.840420] (-) TimerEvent: {}
+[3.941395] (-) TimerEvent: {}
+[4.042309] (-) TimerEvent: {}
+[4.143358] (-) TimerEvent: {}
+[4.244310] (-) TimerEvent: {}
+[4.345325] (-) TimerEvent: {}
+[4.446315] (-) TimerEvent: {}
+[4.547791] (-) TimerEvent: {}
+[4.648878] (-) TimerEvent: {}
+[4.749867] (-) TimerEvent: {}
+[4.850656] (-) TimerEvent: {}
+[4.951859] (-) TimerEvent: {}
+[5.052855] (-) TimerEvent: {}
+[5.153769] (-) TimerEvent: {}
+[5.254688] (-) TimerEvent: {}
+[5.356370] (-) TimerEvent: {}
+[5.457179] (-) TimerEvent: {}
+[5.558039] (-) TimerEvent: {}
+[5.658910] (-) TimerEvent: {}
+[5.760131] (-) TimerEvent: {}
+[5.861009] (-) TimerEvent: {}
+[5.961990] (-) TimerEvent: {}
+[6.062846] (-) TimerEvent: {}
+[6.163955] (-) TimerEvent: {}
+[6.265653] (-) TimerEvent: {}
+[6.366677] (-) TimerEvent: {}
+[6.467670] (-) TimerEvent: {}
+[6.568627] (-) TimerEvent: {}
+[6.669540] (-) TimerEvent: {}
+[6.770439] (-) TimerEvent: {}
+[6.871325] (-) TimerEvent: {}
+[6.972178] (-) TimerEvent: {}
+[7.072992] (-) TimerEvent: {}
+[7.173781] (-) TimerEvent: {}
+[7.274538] (-) TimerEvent: {}
+[7.375331] (-) TimerEvent: {}
+[7.476188] (-) TimerEvent: {}
+[7.576977] (-) TimerEvent: {}
+[7.677806] (-) TimerEvent: {}
+[7.778585] (-) TimerEvent: {}
+[7.879501] (-) TimerEvent: {}
+[7.980295] (-) TimerEvent: {}
+[8.081256] (-) TimerEvent: {}
+[8.182189] (-) TimerEvent: {}
+[8.283103] (-) TimerEvent: {}
+[8.384106] (-) TimerEvent: {}
+[8.485161] (-) TimerEvent: {}
+[8.585969] (-) TimerEvent: {}
+[8.686937] (-) TimerEvent: {}
+[8.787813] (-) TimerEvent: {}
+[8.888644] (-) TimerEvent: {}
+[8.989669] (-) TimerEvent: {}
+[9.091857] (-) TimerEvent: {}
+[9.192778] (-) TimerEvent: {}
+[9.293897] (-) TimerEvent: {}
+[9.394863] (-) TimerEvent: {}
+[9.495968] (-) TimerEvent: {}
+[9.597344] (-) TimerEvent: {}
+[9.698144] (-) TimerEvent: {}
+[9.799416] (-) TimerEvent: {}
+[9.900233] (-) TimerEvent: {}
+[10.001818] (-) TimerEvent: {}
+[10.102567] (-) TimerEvent: {}
+[10.203394] (-) TimerEvent: {}
+[10.304191] (-) TimerEvent: {}
+[10.405269] (-) TimerEvent: {}
+[10.506143] (-) TimerEvent: {}
+[10.607762] (-) TimerEvent: {}
+[10.708508] (-) TimerEvent: {}
+[10.809341] (-) TimerEvent: {}
+[10.910264] (-) TimerEvent: {}
+[11.011104] (-) TimerEvent: {}
+[11.112098] (-) TimerEvent: {}
+[11.213078] (-) TimerEvent: {}
+[11.314074] (-) TimerEvent: {}
+[11.415332] (-) TimerEvent: {}
+[11.516136] (-) TimerEvent: {}
+[11.617336] (-) TimerEvent: {}
+[11.718224] (-) TimerEvent: {}
+[11.819288] (-) TimerEvent: {}
+[11.920158] (-) TimerEvent: {}
+[12.021156] (-) TimerEvent: {}
+[12.122154] (-) TimerEvent: {}
+[12.223062] (-) TimerEvent: {}
+[12.324004] (-) TimerEvent: {}
+[12.424842] (-) TimerEvent: {}
+[12.525622] (-) TimerEvent: {}
+[12.626419] (-) TimerEvent: {}
+[12.727272] (-) TimerEvent: {}
+[12.828060] (-) TimerEvent: {}
+[12.928882] (-) TimerEvent: {}
+[13.029715] (-) TimerEvent: {}
+[13.130468] (-) TimerEvent: {}
+[13.231328] (-) TimerEvent: {}
+[13.332102] (-) TimerEvent: {}
+[13.432892] (-) TimerEvent: {}
+[13.515748] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOdom::Odom()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.516434] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:19:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSensorDataQos\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KSensorDataQoS\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.516882] (odom) StderrLine: {'line': b'   19 |                         rclcpp::\x1b[01;31m\x1b[KSensorDataQos\x1b[m\x1b[K(),\n'}
+[13.517283] (odom) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.517654] (odom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KSensorDataQoS\x1b[m\x1b[K\n'}
+[13.533117] (-) TimerEvent: {}
+[13.548222] (odom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[13.549080] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[13.549773] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.550505] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.551207] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.552008] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.552580] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.553149] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.553754] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.554430] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.555207] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.556088] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:7\x1b[m\x1b[K:\n'}
+[13.556848] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Odom::wheel_ticks_callback(irobot_create_msgs::msg::WheelTicks)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.562882] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:26:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KWheelTicks\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kirobot_create_msgs::msg::WheelTicks\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.563912] (odom) StderrLine: {'line': b'   26 |                 RCLCPP_INFO(this->get_logger(),\x1b[01;31m\x1b[KWheelTicks\x1b[m\x1b[K.msg);\n'}
+[13.564767] (odom) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.565609] (odom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/msg/wheel_ticks.hpp:7\x1b[m\x1b[K,\n'}
+[13.566513] (odom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/turtlebot4_ws/src/odom/src/odom.cpp:9\x1b[m\x1b[K:\n'}
+[13.567399] (odom) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/msg/detail/wheel_ticks__struct.hpp:153:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kirobot_create_msgs::msg::WheelTicks\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[13.568526] (odom) StderrLine: {'line': b'  153 | using \x1b[01;36m\x1b[KWheelTicks\x1b[m\x1b[K =\n'}
+[13.573742] (odom) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.633302] (-) TimerEvent: {}
+[13.740449] (-) TimerEvent: {}
+[13.841366] (-) TimerEvent: {}
+[13.942997] (-) TimerEvent: {}
+[14.043778] (-) TimerEvent: {}
+[14.144562] (-) TimerEvent: {}
+[14.245317] (-) TimerEvent: {}
+[14.346052] (-) TimerEvent: {}
+[14.446856] (-) TimerEvent: {}
+[14.547770] (-) TimerEvent: {}
+[14.648646] (-) TimerEvent: {}
+[14.749526] (-) TimerEvent: {}
+[14.850502] (-) TimerEvent: {}
+[14.952143] (-) TimerEvent: {}
+[15.052894] (-) TimerEvent: {}
+[15.153621] (-) TimerEvent: {}
+[15.254369] (-) TimerEvent: {}
+[15.355090] (-) TimerEvent: {}
+[15.456106] (-) TimerEvent: {}
+[15.556841] (-) TimerEvent: {}
+[15.657572] (-) TimerEvent: {}
+[15.758378] (-) TimerEvent: {}
+[15.859399] (-) TimerEvent: {}
+[15.914325] (odom) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1\n'}
+[15.915785] (odom) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odom.dir/all] Error 2\n'}
+[15.917226] (odom) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.926816] (odom) CommandEnded: {'returncode': 2}
+[15.959577] (-) TimerEvent: {}
+[16.068103] (-) TimerEvent: {}
+[16.168978] (-) TimerEvent: {}
+[16.269263] (odom) JobEnded: {'identifier': 'odom', 'rc': 2}
+[16.271256] (-) TimerEvent: {}
+[16.283722] (-) EventReactorShutdown: {}
